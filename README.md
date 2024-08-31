@@ -1,5 +1,7 @@
 # scG-cluster
-We propose a new method called scG-cluster
+We introduce a novel deep clustering method, scG-cluster, which leverages dual topology adaptive graph convolutional networks (TAGCNs) to enhance neighbor graph construction by integrating node distribution information and addressing the oversmoothing issue common in GCNs. The scG-cluster framework comprises data preprocessing and adjacency graph construction, dual TAGCN encoding, multi-task decoding, and an unsupervised clustering.
+
+Extensive empirical evaluations on six distinct scRNA-seq datasets reveal that scG-cluster consistently surpasses current state-of-the-art methods in both clustering accuracy and scalability.
 ### 1.Data preprocessing
 After obtaining the scRNA-seq data, we need to do preliminary processing of the gene expression data. After the data is preprocessed, it will be stored in the data catalog (preprocess the data using `preprocess`.py). Due to space limitations on github, we are unable to put the full data on there. Please download the detailed data file from the following website.
 ### 2.Generate graphs
