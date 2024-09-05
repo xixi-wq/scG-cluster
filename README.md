@@ -11,8 +11,8 @@ To get better training results, we execute the `train.py` file. The model is fir
 ### 4.Datasets
 The specific data file can be downloaded from the following website:
 - The 10×PBMC datasets from [10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/pbmc4k),
-- The Mouse ES cells from [Figshare](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi),
+- The Mouse ES cells from [Figshare](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65525),
 - The Mouse bladder cells from [Figshare](https://figshare.com/s/865e694ad06d5857db4b),
 - The Worm neuron cells from [Cole Trapnell Lab](https://cole-trapnell-lab.github.io/worm-rna/docs/),
-- The GSE60361 from [Figshare](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi),
+- The GSE60361 from [Figshare](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60361),
 - The LPS datasets from [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17721).
